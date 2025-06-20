@@ -54,7 +54,7 @@ export const HeroContent = () => {
         className="w-full h-full flex justify-center items-center"
       >
         <Image
-          src="/ChatGPT Image Jun 20, 2025, 01_26_57 PM (1).svg"
+          src="/AlbioPortfolio.github.io/ChatGPT Image Jun 20, 2025, 01_26_57 PM (1).svg"
           alt="work icons"
           height={350}
           width={350}

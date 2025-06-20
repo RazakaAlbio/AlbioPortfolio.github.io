@@ -87,7 +87,7 @@ export const Encryption = () => {
           preload="false"
           className="w-full min-h-[200vh] h-auto object-cover opacity-30 scale-150"
         >
-          <source src="/videos/encryption-bg.webm" type="video/webm" />
+          <source src="/AlbioPortfolio.github.io/videos/encryption-bg.webm" type="video/webm" />
         </video>
       </div>
     </div>
