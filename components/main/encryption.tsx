@@ -35,7 +35,7 @@ export const Encryption = () => {
                    <p className="text-cyan-400 text-base mb-4">Mandiri Digital Universe</p>
                    <p className="text-purple-300 text-sm mb-4">Feb 2023 – Jun 2023</p>
                    <div className="text-gray-300 text-sm space-y-2">
-                     <p>• Led multimedia team to "Team of the Month"</p>
+                     <p>• Led multimedia team to &quot;Team of the Month&quot;</p>
                      <p>• Supervised university client projects</p>
                      <p>• Mentored interns through challenges</p>
                      <p>• Enhanced UX/UI for conversions</p>
