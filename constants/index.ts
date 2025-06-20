@@ -131,25 +131,22 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "EYIP (EyesOnYourIdealPlate)",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      'In this project, which combines IoT and machine learning, the primary function is to detect food anomalies at an early stage. I served as both a backend and machine learning engineer, where I was responsible for managing the backend using Laravel, as well as creating the dataset, training the model, and integrating it with Flask. This project was submitted to a competition called Olivia, which is the National Vocational Olympics of Indonesia.',
     image: "/AlbioPortfolio.github.io/projects/project-1.png",
-    link: "https://example.com",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Sound Of Borobudur",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      '"Sound of Borobudur" is a project initiated by the Indonesian Ministry of Culture for an exhibition in Osaka. I am serving as the web developer for this project, tasked with creating a website that provides information about the musical instruments that will be showcased there. Currently, the project is ongoing as I am working on the website, but the mock-ups are still pending from the UI/UX team.',
     image: "/AlbioPortfolio.github.io/projects/project-2.png",
-    link: "https://example.com",
   },
   {
-    title: "Space Themed Website",
+    title: "EduCrew",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      'EduCrew is designed to facilitate global networking among students and serves as a platform for side jobs, allowing students to work as learning mentors. I developed it using native PHP, Bootstrap, and JavaScript. Additionally, I implemented AJAX and MySQL to enhance the functionality of the platform.',
     image: "/AlbioPortfolio.github.io/projects/project-3.png",
-    link: "https://example.com",
   },
 ] as const;
 
