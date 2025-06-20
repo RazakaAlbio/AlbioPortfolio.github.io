@@ -22,7 +22,9 @@ export const Encryption = () => {
 
       <div className="flex flex-col items-center justify-center translate-y-[150px] sm:translate-y-[200px] lg:translate-y-[250px] absolute z-[20] w-full max-w-4xl px-4">
         <div className="relative min-h-[700px]">
-          {/* Timeline Line - Hidden on mobile, visible on desktop */}
+          {/* Timeline Line - Mobile version */}
+          <div className="lg:hidden absolute left-6 top-0 w-1 h-full bg-gradient-to-b from-purple-500 via-cyan-500 to-purple-500 opacity-60"></div>
+          {/* Timeline Line - Desktop version */}
           <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-purple-500 via-cyan-500 to-purple-500 opacity-60"></div>
           
           {/* Timeline Items */}
@@ -30,8 +32,10 @@ export const Encryption = () => {
             {/* First Experience */}
             <div className="flex flex-col lg:flex-row lg:items-center">
                {/* Mobile Layout */}
-               <div className="lg:hidden w-full">
-                 <div className="bg-gradient-to-r from-purple-900/30 to-transparent backdrop-blur-sm border-l-4 lg:border-l-0 lg:border-r-2 border-purple-500/50 pl-4 lg:pl-0 lg:pr-8 py-6">
+               <div className="lg:hidden w-full relative">
+                 {/* Mobile Timeline Node */}
+                 <div className="absolute left-4 top-6 w-6 h-6 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full border-4 border-gray-900 shadow-lg shadow-purple-500/50 z-10"></div>
+                 <div className="bg-gradient-to-r from-purple-900/30 to-transparent backdrop-blur-sm border-l-4 lg:border-l-0 lg:border-r-2 border-purple-500/50 pl-12 lg:pl-0 lg:pr-8 py-6 ml-2">
                    <h3 className="text-lg lg:text-xl font-semibold text-white mb-3">Supervisor & Mentor</h3>
                    <p className="text-cyan-400 text-sm lg:text-base mb-4">Mandiri Digital Universe</p>
                    <p className="text-purple-300 text-xs lg:text-sm mb-4">Feb 2023 – Jun 2023</p>
@@ -70,8 +74,10 @@ export const Encryption = () => {
             {/* Second Experience */}
             <div className="flex flex-col lg:flex-row lg:items-center">
               {/* Mobile Layout */}
-              <div className="lg:hidden w-full">
-                 <div className="bg-gradient-to-r from-cyan-900/30 to-transparent backdrop-blur-sm border-l-4 border-cyan-500/50 pl-4 py-6">
+              <div className="lg:hidden w-full relative">
+                 {/* Mobile Timeline Node */}
+                 <div className="absolute left-4 top-6 w-6 h-6 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full border-4 border-gray-900 shadow-lg shadow-cyan-500/50 z-10"></div>
+                 <div className="bg-gradient-to-r from-cyan-900/30 to-transparent backdrop-blur-sm border-l-4 border-cyan-500/50 pl-12 py-6 ml-2">
                    <h3 className="text-lg lg:text-xl font-semibold text-white mb-3">Freelance Developer</h3>
                    <p className="text-purple-400 text-sm lg:text-base mb-4">Self Employed</p>
                    <p className="text-cyan-300 text-xs lg:text-sm mb-4">Nov 2024 – Present</p>

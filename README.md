@@ -1,7 +1,5 @@
 # Website Portofolio Pribadi
 
-![Website Portofolio]("Website Portofolio Pribadi")
-
 Selamat datang di website portofolio pribadi saya! Website ini dibangun menggunakan teknologi modern untuk menampilkan karya, keahlian, dan pengalaman saya dalam dunia pengembangan web.
 
 ## 🚀 Tentang Website Ini

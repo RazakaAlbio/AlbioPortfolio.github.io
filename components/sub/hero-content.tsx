@@ -59,7 +59,7 @@ export const HeroContent = () => {
           height={350}
           width={350}
           draggable={false}
-          className="select-none opacity-30 grayscale hover:opacity-50 transition-opacity duration-300 ease-in-out w-64 h-64 sm:w-80 sm:h-80 lg:w-[350px] lg:h-[350px]"
+          className="select-none opacity-30 grayscale hover:opacity-50 transition-opacity duration-300 ease-in-out w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-[350px] lg:h-[350px]"
         />
       </motion.div>
     </motion.div>
