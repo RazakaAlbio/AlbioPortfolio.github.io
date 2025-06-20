@@ -40,7 +40,7 @@ export const SkillDataProvider = ({
       transition={{ delay: index * animationDelay }}
     >
       <Image 
-        src={`/AlbioPortfolio.github.io/skills/${src}`} 
+        src={`/skills/${src}`} 
         width={width} 
         height={height} 
         alt={name}

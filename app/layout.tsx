@@ -4,7 +4,9 @@ import type { PropsWithChildren } from "react";
 
 import { Footer } from "@/components/main/footer";
 import { Navbar } from "@/components/main/navbar";
-import { StarsCanvas } from "@/components/main/star-background";
+import dynamic from "next/dynamic";
+
+const StarsCanvas = dynamic(() => import("@/components/main/star-background").then(mod => ({ default: mod.StarsCanvas })), { ssr: false });
 import { siteConfig } from "@/config";
 import { cn } from "@/lib/utils";
 
