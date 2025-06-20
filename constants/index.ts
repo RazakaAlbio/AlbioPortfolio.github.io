@@ -31,6 +31,81 @@ export const SKILL_DATA = [
     width: 80,
     height: 80,
   },
+  {
+    skill_name: "Figma",
+    image: "figma.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React",
+    image: "react.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React Native",
+    image: "reactnative.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "TypeScript",
+    image: "typescript.png",
+    width: 80,
+    height: 80,
+  },{
+    skill_name: "PHP",
+    image: "php.svg",
+    width: 80,
+    height: 80,
+  },{
+    skill_name: "Python",
+    image: "python.svg",
+    width: 80,
+    height: 80,
+  },{
+    skill_name: "Laravel",
+    image: "Laravel.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "TensorFlow",
+    image: "tensorflow.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Nextjs",
+    image: "next.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "MySQL",
+    image: "mysql.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Flutter",
+    image: "flutter.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Excel",
+    image: "excel.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Arduino",
+    image: "arduino-ide.svg",
+    width: 80,
+    height: 80,
+  },
 ] as const;
 
 export const SOCIALS = [
@@ -51,83 +126,7 @@ export const SOCIALS = [
   },
 ] as const;
 
-export const FRONTEND_SKILL = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
-] as const;
 
-export const BACKEND_SKILL = [
-  {
-    skill_name: "MySQL",
-    image: "mysql.png",
-    width: 70,
-    height: 70,
-  },
-] as const;
-
-export const FULLSTACK_SKILL = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 70,
-    height: 70,
-  },
-] as const;
-
-export const OTHER_SKILL = [
-  {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
-  },
-] as const;
 
 export const PROJECTS = [
   {
@@ -155,11 +154,15 @@ export const PROJECTS = [
 export const NAV_LINKS = [
   {
     title: "About me",
-    link: "#about-me",
+    link: "#about",
   },
   {
     title: "Skills",
     link: "#skills",
+  },
+  {
+    title: "Experience",
+    link: "#experience",
   },
   {
     title: "Projects",
