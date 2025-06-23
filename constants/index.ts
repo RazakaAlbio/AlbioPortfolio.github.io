@@ -9,107 +9,107 @@ import {
 export const SKILL_DATA = [
   {
     skill_name: "HTML",
-    image: "/skills/html.png",
+    image: "/AlbioPortfolio.github.io/skills/html.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "CSS",
-    image: "/skills/css.png",
+    image: "/AlbioPortfolio.github.io/skills/css.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "JavaScript",
-    image: "/skills/js.png",
+    image: "/AlbioPortfolio.github.io/skills/js.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Tailwind CSS",
-    image: "/skills/tailwind.png",
+    image: "/AlbioPortfolio.github.io/skills/tailwind.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Figma",
-    image: "/skills/figma.png",
+    image: "/AlbioPortfolio.github.io/skills/figma.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "React",
-    image: "/skills/react.png",
+    image: "/AlbioPortfolio.github.io/skills/react.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "React Native",
-    image: "/skills/reactnative.png",
+    image: "/AlbioPortfolio.github.io/skills/reactnative.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "TypeScript",
-    image: "/skills/ts.png",
+    image: "/AlbioPortfolio.github.io/skills/ts.png",
     width: 80,
     height: 80,
   },{
     skill_name: "PHP",
-    image: "/skills/php.svg",
+    image: "/AlbioPortfolio.github.io/skills/php.svg",
     width: 80,
     height: 80,
   },{
     skill_name: "Python",
-    image: "/skills/python.svg",
+    image: "/AlbioPortfolio.github.io/skills/python.svg",
 
     width: 80,
     height: 80,
   },{
     skill_name: "Laravel",
-    image: "/skills/Laravel.svg",
+    image: "/AlbioPortfolio.github.io/skills/Laravel.svg",
 
     width: 80,
     height: 80,
   },
   {
     skill_name: "TensorFlow",
-    image: "/skills/tensorflow.svg",
+    image: "/AlbioPortfolio.github.io/skills/tensorflow.svg",
 
     width: 80,
     height: 80,
   },
   {
     skill_name: "Nextjs",
-    image: "/skills/next.png",
+    image: "/AlbioPortfolio.github.io/skills/next.png",
 
     width: 80,
     height: 80,
   },
   {
     skill_name: "MySQL",
-    image: "/skills/mysql.png",
+    image: "/AlbioPortfolio.github.io/skills/mysql.png",
 
     width: 80,
     height: 80,
   },
   {
     skill_name: "Flutter",
-    image: "/skills/flutter.svg",
+    image: "/AlbioPortfolio.github.io/skills/flutter.svg",
 
     width: 80,
     height: 80,
   },
   {
     skill_name: "Excel",
-    image: "/skills/excel.svg",
+    image: "/AlbioPortfolio.github.io/skills/excel.svg",
 
     width: 80,
     height: 80,
   },
   {
     skill_name: "Arduino",
-    image: "/skills/arduino-ide.svg",
+    image: "/AlbioPortfolio.github.io/skills/arduino-ide.svg",
 
     width: 80,
     height: 80,
