@@ -39,11 +39,15 @@ export const Encryption = () => {
             }
           }
         }}
-        className="flex flex-col items-center justify-center translate-y-[150px] sm:translate-y-[200px] md:translate-y-[220px] lg:translate-y-[250px] absolute z-[20] w-full max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl px-2 sm:px-4"
+        className="flex flex-col items-center justify-center translate-y-[150px] sm:translate-y-[200px] md:translate-y-[220px] lg:translate-y-[300px] absolute z-[20] w-full max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl px-2 sm:px-4"
       >
         <div className="relative min-h-[500px] sm:min-h-[600px] lg:min-h-[700px]">
-          {/* Timeline Line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 top-0 w-0.5 sm:w-1 h-full bg-gradient-to-b from-purple-500 via-cyan-500 to-purple-500 opacity-60"></div>
+          {/* Timeline Line - Hidden on mobile, visible on desktop */}
+          <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 top-0 w-1 h-full bg-gradient-to-b from-purple-500 via-cyan-500 to-purple-500 opacity-60"></div>
+          
+          {/* Mobile Timeline Lines - Before and after cards only */}
+          <div className="lg:hidden absolute left-1/2 transform -translate-x-1/2 top-0 w-0.5 h-8 bg-gradient-to-b from-purple-500 to-cyan-500 opacity-60"></div>
+          <div className="lg:hidden absolute left-1/2 transform -translate-x-1/2 bottom-0 w-0.5 h-8 bg-gradient-to-b from-cyan-500 to-purple-500 opacity-60"></div>
           
           {/* Timeline Items */}
           <motion.div 
@@ -73,10 +77,10 @@ export const Encryption = () => {
                   <p className="text-cyan-400 text-sm mb-3 text-center">Mandiri Digital Universe</p>
                   <p className="text-purple-300 text-xs mb-3 text-center">Feb 2023 – Jun 2023</p>
                   <div className="text-gray-300 text-xs space-y-1">
-                    <p>• Led multimedia team to &quot;Team of the Month&quot;</p>
-                    <p>• Supervised university client projects</p>
-                    <p>• Mentored interns through challenges</p>
-                    <p>• Enhanced UX/UI for conversions</p>
+                    <p>Led multimedia team to &quot;Team of the Month&quot;</p>
+                    <p>Supervised university client projects</p>
+                    <p>Mentored interns through challenges</p>
+                    <p>Enhanced UX/UI for conversions</p>
                   </div>
                 </div>
                 <div className="w-4 h-4 sm:w-6 sm:h-6 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full border-2 sm:border-4 border-gray-900 shadow-lg shadow-purple-500/50 z-10"></div>
@@ -128,10 +132,10 @@ export const Encryption = () => {
                   <p className="text-purple-400 text-sm mb-3 text-center">Self Employed</p>
                   <p className="text-cyan-300 text-xs mb-3 text-center">Nov 2024 – Present</p>
                   <div className="text-gray-300 text-xs space-y-1">
-                    <p>• ML model for poultry detection (YOLO v11)</p>
-                    <p>• Museum website for Ministry of Culture of indonesia gov</p>
-                    <p>• Native PHP and vanilla JavaScript</p>
-                    <p>• Research fieldwork assistance</p>
+                    <p>ML model for poultry detection (YOLO v11)</p>
+                    <p>Museum website for Ministry of Culture of indonesia gov</p>
+                    <p>Native PHP and vanilla JavaScript</p>
+                    <p>Research fieldwork assistance</p>
                   </div>
                 </div>
               </div>
@@ -170,7 +174,7 @@ export const Encryption = () => {
           preload="false"
           className="w-full min-h-[200vh] h-auto object-cover opacity-30 scale-150"
         >
-          <source src="/AlbioPortfolio.github.io/blob/main/public/videos/encryption-bg.webm" type="video/webm" />
+          <source src="/videos/encryption-bg.webm" type="video/webm" />
         </video>
       </div>
     </motion.div>
