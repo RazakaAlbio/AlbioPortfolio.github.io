@@ -9,7 +9,7 @@ import {
 export const SKILL_DATA = [
   {
     skill_name: "HTML",
-    image: "/AlbioPortfolio.github.io/skills/html.png",
+    image: "/AlbioPortfolio.github.io/blob/main/public/skills/html.png",
     width: 80,
     height: 80,
   },
