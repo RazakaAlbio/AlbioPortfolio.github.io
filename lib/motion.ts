@@ -44,6 +44,7 @@ export const fadeInUp = {
     y: 0,
     opacity: 1,
     transition: {
+      type: "tween",
       duration: 0.8,
       ease: "easeOut",
     },
@@ -58,6 +59,7 @@ export const fadeInUpDelayed = (delay: number) => {
       opacity: 1,
       transition: {
         delay: delay,
+        type: "tween",
         duration: 0.8,
         ease: "easeOut",
       },
@@ -76,11 +78,12 @@ export const staggerContainer = {
 };
 
 export const scaleIn = {
-  hidden: { scale: 0.8, opacity: 0 },
+  hidden: { scale: 0, opacity: 0 },
   visible: {
     scale: 1,
     opacity: 1,
     transition: {
+      type: "tween",
       duration: 0.6,
       ease: "easeOut",
     },
@@ -95,6 +98,7 @@ export const slideInFromBottom = (delay: number = 0) => {
       opacity: 1,
       transition: {
         delay: delay,
+        type: "tween",
         duration: 0.8,
         ease: "easeOut",
       },

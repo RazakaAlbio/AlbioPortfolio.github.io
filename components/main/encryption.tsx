@@ -27,7 +27,18 @@ export const Encryption = () => {
       </div>
 
       <motion.div 
-        variants={fadeInUp}
+        variants={{
+          hidden: { y: 100, opacity: 0 },
+          visible: {
+            y: 0,
+            opacity: 1,
+            transition: {
+              type: "spring",
+              duration: 1.25,
+              ease: "easeOut"
+            }
+          }
+        }}
         className="flex flex-col items-center justify-center translate-y-[150px] sm:translate-y-[200px] md:translate-y-[220px] lg:translate-y-[250px] absolute z-[20] w-full max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl px-2 sm:px-4"
       >
         <div className="relative min-h-[500px] sm:min-h-[600px] lg:min-h-[700px]">
@@ -43,7 +54,18 @@ export const Encryption = () => {
           >
             {/* First Experience */}
             <motion.div 
-              variants={fadeInUp}
+              variants={{
+                hidden: { opacity: 0, y: 75 },
+                visible: { 
+                  opacity: 1, 
+                  y: 0,
+                  transition: {
+                    type: "spring",
+                    duration: 1.25,
+                    ease: "easeOut"
+                  }
+                }
+              }}
               className="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-center"
             >
                {/* Mobile and Medium Layout */}
@@ -65,7 +87,7 @@ export const Encryption = () => {
                </div>
                
                {/* Medium Screen Layout */}
-               <div className="hidden md:block lg:hidden w-full relative flex flex-col items-center">
+               <div className="md:block lg:hidden w-full relative flex-col items-center">
                  {/* Experience Card */}
                  <div className="bg-gradient-to-r from-purple-900/30 to-transparent backdrop-blur-sm border border-purple-500/50 rounded-lg p-6 mb-4 w-full max-w-md mx-auto">
                    <h3 className="text-lg font-semibold text-white mb-3 text-center">Supervisor & Mentor</h3>
@@ -107,7 +129,18 @@ export const Encryption = () => {
             
             {/* Second Experience */}
             <motion.div 
-              variants={fadeInUp}
+              variants={{
+                hidden: { opacity: 0, y: 75 },
+                visible: { 
+                  opacity: 1, 
+                  y: 0,
+                  transition: {
+                    type: "spring",
+                    bounce: 0.4,
+                    duration: 0.8
+                  }
+                }
+              }}
               className="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-center"
             >
               {/* Mobile Layout */}
@@ -129,7 +162,7 @@ export const Encryption = () => {
                </div>
                
                {/* Medium Screen Layout */}
-               <div className="hidden md:block lg:hidden w-full relative flex flex-col items-center">
+               <div className="md:block lg:hidden w-full relative flex-col items-center">
                  {/* Medium Timeline Node */}
                  <div className="w-6 h-6 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full border-4 border-gray-900 shadow-lg shadow-cyan-500/50 z-10 mb-4 mx-auto"></div>
                  {/* Experience Card */}

@@ -1,3 +1,5 @@
+"use client";
+
 import { SkillDataProvider } from "@/components/sub/skill-data-provider";
 import { motion } from "framer-motion";
 import { SkillText } from "@/components/sub/skill-text";
@@ -16,7 +18,18 @@ export const Skills = () => {
       style={{ transform: "scale(0.9)" }}
       className="flex flex-col items-center justify-center gap-2 sm:gap-3 h-full relative overflow-hidden py-10 sm:py-15 md:py-20"
     >
-      <motion.div variants={fadeInUp}>
+      <motion.div variants={{
+        hidden: { y: 50, opacity: 0 },
+        visible: { 
+          y: 0, 
+          opacity: 1,
+          transition: {
+            type: "spring",
+            duration: 1,
+            ease: [0.25, 0.25, 0.25, 0.75]
+          }
+        }
+      }}>
         <SkillText />
       </motion.div>
 
@@ -27,7 +40,18 @@ export const Skills = () => {
         {SKILL_DATA.map((skill, i) => (
           <motion.div
             key={skill.skill_name}
-            variants={fadeInUp}
+            variants={{
+              hidden: { y: 50, opacity: 0 },
+              visible: {
+                y: 0,
+                opacity: 1,
+                transition: {
+                  type: "spring",
+                  duration: 1,
+                  ease: "easeOut"
+                }
+              }
+            }}
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 300 }}
           >

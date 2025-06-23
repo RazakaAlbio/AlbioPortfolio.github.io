@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 import { ProjectCard } from "@/components/sub/project-card";
 
@@ -15,7 +17,18 @@ export const Projects = () => {
       className="flex flex-col items-center justify-center py-20"
     >
       <motion.h1 
-        variants={fadeInUp}
+        variants={{
+          hidden: { y: 50, opacity: 0 },
+          visible: {
+            y: 0,
+            opacity: 1,
+            transition: {
+              type: "spring",
+              duration: 1.25,
+              ease: [0.25, 0.1, 0.25, 1],
+            },
+          },
+        }}
         className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10 sm:py-15 md:py-20 translate-y-[50px] sm:translate-y-[75px] md:translate-y-[100px]"
       >
         My Projects
@@ -27,7 +40,17 @@ export const Projects = () => {
         {PROJECTS.map((project, index) => (
           <motion.div
             key={project.title}
-            variants={fadeInUp}
+            variants={{
+              hidden: { y: 50, opacity: 0 },
+              visible: {
+                y: 0,
+                opacity: 1,
+                transition: {
+                  duration: 0.5,
+                  ease: [0.25, 0.1, 0.25, 1],
+                },
+              },
+            }}
             whileHover={{ y: -10, transition: { duration: 0.3 } }}
           >
             <ProjectCard
