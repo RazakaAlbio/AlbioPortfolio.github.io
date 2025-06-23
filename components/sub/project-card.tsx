@@ -12,8 +12,8 @@ export const ProjectCard = ({
   description,
 }: ProjectCardProps) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] flex flex-col h-full">
-      <div className="relative w-full h-48 overflow-hidden">
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] flex flex-col h-full md:h-[480px] lg:h-[500px]">
+      <div className="relative w-full h-48 md:h-52 lg:h-56 overflow-hidden">
         <Image
           src={src}
           alt={title}
@@ -23,9 +23,9 @@ export const ProjectCard = ({
         />
       </div>
 
-      <div className="relative p-4 flex-1 flex flex-col">
+      <div className="relative p-4 flex-1 flex flex-col md:h-[220px] lg:h-[240px]">
         <h1 className="text-2xl font-semibold text-white mb-2">{title}</h1>
-        <p className="text-gray-300 flex-1">{description}</p>
+        <p className="text-gray-300 flex-1 text-sm leading-relaxed overflow-hidden">{description}</p>
       </div>
     </div>
   );
