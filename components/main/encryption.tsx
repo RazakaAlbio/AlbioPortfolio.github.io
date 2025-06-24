@@ -12,7 +12,7 @@ export const Encryption = () => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
       variants={staggerContainer}
-      className="flex flex-row relative items-center justify-center min-h-[150vh] w-full h-full pb-32 -z-20"
+      className="flex flex-row relative items-center justify-center min-h-[150vh] w-full h-full pb-32 z-10"
     >
       <div className="absolute w-auto h-auto top-0  z-[5]">
         <motion.div
@@ -169,7 +169,7 @@ export const Encryption = () => {
           preload="false"
           className="w-full min-h-[200vh] h-auto object-cover opacity-30 scale-150"
         >
-          <source src="/AlbioPortfolio.github.io/videos/encryption-bg.webm" type="video/webm" />
+          <source src="/videos/encryption-bg.webm" type="video/webm" />
         </video>
       </div>
     </motion.div>

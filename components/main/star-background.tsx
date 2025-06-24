@@ -52,7 +52,7 @@ export const StarBackground = (props: PointsProps) => {
 };
 
 export const StarsCanvas = () => (
-  <div className="w-full h-full fixed inset-0 -z-10 overflow-hidden">
+  <div className="w-full h-full fixed inset-0 -z-20 overflow-hidden">
     <Canvas 
       camera={{ position: [0, 0, 1] }}
       style={{ width: '100%', height: '100%' }}
