@@ -1,14 +1,11 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-const repoName = 'AlbioPortfolio.github.io'; // Ganti dengan nama repository GitHub Anda
-
 const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? `/${repoName}` : '',
-  assetPrefix: isProd ? `/${repoName}/` : '',
+  basePath: '', // Kosongkan untuk repository GitHub Pages utama
+  assetPrefix: '', // Kosongkan untuk repository GitHub Pages utama
   trailingSlash: true,
 };
 
