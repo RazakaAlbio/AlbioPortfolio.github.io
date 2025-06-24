@@ -136,19 +136,19 @@ export const PROJECTS = [
     title: "EYIP (EyesOnYourIdealPlate)",
     description:
       'In this project, which combines IoT and machine learning, the primary function is to detect food anomalies at an early stage. I served as both a backend and machine learning engineer, where I was responsible for managing the backend using Laravel, as well as creating the dataset, training the model, and integrating it with Flask. This project was submitted to a competition called Olivia, which is the National Vocational Olympics of Indonesia.',
-    image: "/AlbioPortfolio.github.io/projects/project-1.png",
+    image: "/projects/project-1.png",
   },
   {
     title: "Sound Of Borobudur",
     description:
       '"Sound of Borobudur" is a project initiated by the Indonesian Ministry of Culture for an exhibition in Osaka. I am serving as the web developer for this project, tasked with creating a website that provides information about the musical instruments that will be showcased there. Currently, the project is ongoing as I am working on the website, but the mock-ups are still pending from the UI/UX team.',
-    image: "/AlbioPortfolio.github.io/projects/project-2.png",
+    image: "/projects/project-2.png",
   },
   {
     title: "EduCrew",
     description:
       'EduCrew is designed to facilitate global networking among students and serves as a platform for side jobs, allowing students to work as learning mentors. I developed it using native PHP, Bootstrap, and JavaScript. Additionally, I implemented AJAX and MySQL to enhance the functionality of the platform.',
-    image: "/AlbioPortfolio.github.io/projects/project-3.png",
+    image: "/projects/project-3.png",
   },
 ] as const;
 
