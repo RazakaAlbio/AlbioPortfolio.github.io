@@ -15,7 +15,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="w-auto h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/30 bg-[#03001410] backdrop-blur-none z-50 px-2 sm:px-4 md:px-6 lg:px-10">
+    <div className="w-[100%] h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/30 bg-[#03001410] backdrop-blur-none z-50 px-1 sm:px-3 md:px-6 lg:px-10">
       {/* Navbar Container */}
       <div className="w-full h-full flex items-center justify-between m-auto px-1 sm:px-2 md:px-[10px]">
         {/* Name Only */}
@@ -23,7 +23,7 @@ export const Navbar = () => {
           href="#about-me"
           className="flex items-center"
         >
-          <div className="font-bold text-gray-300 text-sm sm:text-base md:text-lg lg:text-xl">Razaqa Albio Kasyfi</div>
+          <div className="font-bold text-gray-300 text-xs sm:text-sm md:text-lg lg:text-xl">Razaqa Albio Kasyfi</div>
         </Link>
 
         {/* Web Navbar */}
@@ -57,7 +57,7 @@ export const Navbar = () => {
 
         {/* Hamburger Menu */}
         <button
-          className="md:hidden text-white focus:outline-none text-4xl"
+          className="md:hidden text-white focus:outline-none text-2xl sm:text-3xl"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           ☰
