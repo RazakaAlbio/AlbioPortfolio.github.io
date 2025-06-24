@@ -34,8 +34,8 @@ export const SKILL_DATA = [
   {
     skill_name: "Figma",
     image: "/AlbioPortfolio.github.io/skills/figma.png",
-    width: 80,
-    height: 80,
+    width: 50,
+    height: 50,
   },
   {
     skill_name: "React",
@@ -70,8 +70,8 @@ export const SKILL_DATA = [
   {
     skill_name: "Laravel",
     image: "/AlbioPortfolio.github.io/skills/Laravel.svg",
-    width: 80,
-    height: 80,
+    width: 120,
+    height: 120,
   },
   {
     skill_name: "TensorFlow",
