@@ -64,8 +64,8 @@ export const SKILL_DATA = [
   {
     skill_name: "Python",
     image: "/AlbioPortfolio.github.io/skills/python.svg",
-    width: 80,
-    height: 80,
+    width: 160,
+    height: 160,
   },
   {
     skill_name: "Laravel",
