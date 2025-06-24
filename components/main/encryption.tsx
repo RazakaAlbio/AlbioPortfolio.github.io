@@ -160,14 +160,14 @@ export const Encryption = () => {
         </div>
       </motion.div>
 
-      <div className="w-full flex items-start justify-center absolute top-0 left-0 min-h-[200vh] h-auto">
+      <div className="w-full flex items-start justify-center absolute top-[120px] left-0 min-h-[120vh] h-auto">
         <video
           loop
           muted
           autoPlay
           playsInline
           preload="false"
-          className="w-full min-h-[200vh] h-auto object-cover opacity-30 scale-150"
+          className="w-full min-h-[120vh] h-auto object-cover opacity-30 scale-150"
         >
           <source src="/AlbioPortfolio.github.io/videos/encryption-bg.webm" type="video/webm" />
         </video>
